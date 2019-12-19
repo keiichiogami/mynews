@@ -8,8 +8,7 @@
         <title>MyNews</title>
     </head>
     <body>
-        <h1>Myニュース作成画面です</h1>
-        <p>テストです。</p>
+        <h1>編集画面です</h1>
         <p>テストです。</p>
     </body>
 </html>
