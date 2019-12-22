@@ -21,26 +21,26 @@
                         </ul>
                     @endif
                     <div class="form-group row">
-                        <label class="col-md-2">名前</label>
+                        <label class="col-md-2" for="name">名前</label>
                         <div class="col-md-10">
                             <input type="text" class="form-control" name="name" value="{{ old('title') }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2">性別</label>
+                        <label class="col-md-2" for="gender">性別</label>
                         <div class="col-md-10">
                             <input type="radio" name="gender" value="male" checked /> 男性　
                             <input type="radio" name="gender" value="female" /> 女性
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2">趣味</label>
+                        <label class="col-md-2" for="hobby">趣味</label>
                         <div class="col-md-10">
                             <textarea class="form-control" name="hobby" rows="2">{{ old('body') }}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2">自己紹介欄</label>
+                        <label class="col-md-2" for="introduction">自己紹介欄</label>
                         <div class="col-md-10">
                             <textarea class="form-control" name="introduction" rows="10">{{ old('body') }}</textarea>
                         </div>
